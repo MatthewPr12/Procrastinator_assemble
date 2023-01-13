@@ -9,10 +9,6 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include USB_HOST/Target/subdir.mk
--include USB_HOST/App/subdir.mk
--include Middlewares/ST/STM32_USB_Host_Library/Core/Src/subdir.mk
--include Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
@@ -64,8 +60,8 @@ all: main-build
 main-build: Procrastinator.elf secondary-outputs
 
 # Tool invocations
-Procrastinator.elf Procrastinator.map: $(OBJS) $(USER_OBJS) /Users/matthewprytula/STM32CubeIDE/workspace_1.10.1/Procrastinator/STM32F411VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/matthewprytula/STM32CubeIDE/workspace_1.10.1/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Procrastinator.elf Procrastinator.map: $(OBJS) $(USER_OBJS) /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
