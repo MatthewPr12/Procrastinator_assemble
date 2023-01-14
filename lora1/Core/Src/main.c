@@ -50,7 +50,7 @@
 /* USER CODE BEGIN PV */
 LoRa myLoRa;
 //uint16_t LoRa_stat = 0;
-uint8_t RxBuffer[128];
+uint8_t RxBuffer[64];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -129,8 +129,8 @@ int main(void)
 //	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
 //  }
   //receiver
-  volatile uint8_t received_data[12];
-  volatile uint8_t packet_size = 0;
+  uint8_t received_data[32];
+  uint8_t packet_size = 0;
   LoRa_startReceiving(&myLoRa);
   /* USER CODE END 2 */
 
@@ -156,8 +156,8 @@ int main(void)
 //	    HAL_Delay(500);
 
 //	  receiver
-	  packet_size = LoRa_receive(&myLoRa, received_data, 12);
-	  if (packet_size != 10) {
+	  packet_size = LoRa_receive(&myLoRa, received_data, 32);
+	  if (packet_size == 32) {
 		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
 	  }
 //	  HAL_Delay(500);
@@ -225,7 +225,7 @@ void SystemClock_Config(void)
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
   if (GPIO_Pin == DIO0_Pin){
-	  LoRa_receive(&myLoRa, RxBuffer, 128);
+	  LoRa_receive(&myLoRa, RxBuffer, 64);
 //	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_SET);
   }
 }
