@@ -24,13 +24,14 @@
 #include "usart.h"
 #include "usb_host.h"
 #include "gpio.h"
-#include <string.h>
-#include <stdio.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "BME280_STM32.h"
-char buffer[64] = {0};
+#include "LoRa.h"
+#include "stdio.h"
+#include "string.h"
+char buffer[32] = {0};
 uint8_t count=0;
 /* USER CODE END Includes */
 
@@ -56,6 +57,7 @@ void uprintf(char *str){
 	    	Error_Handler();
 	    }
 }
+LoRa myLoRa;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -113,6 +115,31 @@ int main(void)
   if(HAL_I2C_IsDeviceReady(&hi2c1, 0xEC, 2, 10)==HAL_OK){
  	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
    }
+
+//  uint16_t readvalue;
+//    HAL_ADC_Start(&hadc1);
+    myLoRa = newLoRa();
+    LoRa_reset(&myLoRa);
+    myLoRa.CS_port         = NSS_GPIO_Port;
+    myLoRa.CS_pin          = NSS_Pin;
+    myLoRa.reset_port      = RST_GPIO_Port;
+    myLoRa.reset_pin       = RST_Pin;
+    myLoRa.DIO0_port       = DIO0_GPIO_Port;
+    myLoRa.DIO0_pin        = DIO0_Pin;
+    myLoRa.hSPIx           = &hspi1;
+
+    myLoRa.frequency             = 440;             // default = 433 MHz
+    myLoRa.spredingFactor        = SF_7;            // default = SF_7
+    myLoRa.bandWidth             = BW_31_25KHz;       // default = BW_125KHz
+    myLoRa.crcRate               = CR_4_5;          // default = CR_4_5
+    myLoRa.power                 = POWER_20db;      // default = 20db
+    myLoRa.overCurrentProtection = 130;             // default = 100 mA
+    myLoRa.preamble              = 9;              // default = 8;
+
+    if (LoRa_init(&myLoRa) == LORA_OK){
+  	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_SET);
+    }
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -123,15 +150,23 @@ int main(void)
     MX_USB_HOST_Process();
 
     /* USER CODE BEGIN 3 */
-
+	  if (LoRa_init(&myLoRa) == LORA_OK){
+	    	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_SET);
+	      }
+	  else{
+		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_RESET);
+	  }
     BME280_Measure();
-    count++;
-    sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f\n\r", Temperature, Pressure, Humidity);
-    uprintf(buffer);
-//    if (HAL_UART_Transmit(&huart2, (uint8_t *)"Hello world\n", strlen("Hello world\n"), 100) != HAL_OK){
-//    	Error_Handler();
-//    }
-    HAL_Delay(100);
+    sprintf(buffer, "T: %.2f P: %.2f H: %.2f\n\r", Temperature, Pressure, Humidity);
+//    uprintf(buffer);
+	if(LoRa_transmit(&myLoRa, (uint8_t*)buffer, strlen(buffer), 100) == 1){
+	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
+	}
+	else {
+		 HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
+	}
+	LoRa_transmit(&myLoRa, (uint8_t*)buffer, strlen(buffer), 100);
+	HAL_Delay(200);
   }
   /* USER CODE END 3 */
 }

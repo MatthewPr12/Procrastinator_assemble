@@ -1,0 +1,1084 @@
+2023-01-13 14:34:16,945 [INFO] Activator:177 - 
+
+
+2023-01-13 14:34:16,946 [INFO] Activator:178 - !SESSION log4j initialized
+2023-01-13 14:34:18,862 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-01-13 14:34:45,305 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-13 14:34:45,306 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-13 14:34:45,306 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-13 14:35:36,310 [INFO] McuFinderGlobals:44 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-01-13 14:35:39,269 [INFO] ApplicationProperties:181 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420
+2023-01-13 14:35:39,282 [INFO] DbMcusXml:77 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//mcu/
+2023-01-13 14:35:39,284 [INFO] ApiDb:269 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//plugins/boardmanager/
+2023-01-13 14:35:39,289 [WARN] ApiDb:254 - Overriding images path with different value:  => /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//plugins/mcufinder/images/
+2023-01-13 14:35:39,366 [INFO] ApiDb:249 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/
+2023-01-13 14:35:39,368 [INFO] DbMcusAds:124 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/
+2023-01-13 14:35:39,372 [INFO] CrossReferenceDbSqlite:201 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-01-13 14:35:39,491 [INFO] RulesReader:61 - Compatibility file has been processed (282 Rules)
+2023-01-13 14:35:39,559 [INFO] DbMcusXml:77 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//mcu/
+2023-01-13 14:35:39,560 [INFO] ApiDb:269 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//plugins/boardmanager/
+2023-01-13 14:35:39,562 [INFO] ApiDb:256 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//plugins/mcufinder/images/
+2023-01-13 14:35:39,562 [WARN] DbFile:40 - Overriding database path with different value: /Users/vitalii/.stmcufinder/plugins/mcufinder/ => /Users/vitalii/.stmcufinder/plugins/mcufinder
+2023-01-13 14:35:39,562 [INFO] ApiDb:249 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/
+2023-01-13 14:35:39,563 [WARN] DbFile:40 - Overriding database path with different value: /Users/vitalii/.stmcufinder/plugins/mcufinder/ => /Users/vitalii/.stmcufinder/plugins/mcufinder
+2023-01-13 14:35:39,563 [INFO] DbMcusAds:124 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/
+2023-01-13 14:35:39,565 [WARN] DbFile:40 - Overriding database path with different value: /Users/vitalii/.stmcufinder/plugins/mcufinder/ => /Users/vitalii/.stmcufinder/plugins/mcufinder
+2023-01-13 14:35:39,565 [WARN] DbFile:40 - Overriding database path with different value: /Users/vitalii/.stmcufinder/plugins/mcufinder/ => /Users/vitalii/.stmcufinder/plugins/mcufinder
+2023-01-13 14:35:39,566 [INFO] CrossReferenceDbSqlite:201 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-01-13 14:35:39,648 [INFO] MainPanel:242 - HeapMemory: 279969792
+2023-01-13 14:35:39,745 [INFO] DbMcusXml:77 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//mcu/
+2023-01-13 14:35:39,746 [INFO] ApiDb:269 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//plugins/boardmanager/
+2023-01-13 14:35:39,746 [INFO] ApiDb:256 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db//plugins/mcufinder/images/
+2023-01-13 14:35:39,747 [WARN] DbFile:40 - Overriding database path with different value: /Users/vitalii/.stmcufinder/plugins/mcufinder/ => /Users/vitalii/.stmcufinder/plugins/mcufinder
+2023-01-13 14:35:39,747 [INFO] ApiDb:249 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/
+2023-01-13 14:35:39,747 [WARN] DbFile:40 - Overriding database path with different value: /Users/vitalii/.stmcufinder/plugins/mcufinder/ => /Users/vitalii/.stmcufinder/plugins/mcufinder
+2023-01-13 14:35:39,747 [INFO] DbMcusAds:124 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/
+2023-01-13 14:35:39,747 [WARN] DbFile:40 - Overriding database path with different value: /Users/vitalii/.stmcufinder/plugins/mcufinder/ => /Users/vitalii/.stmcufinder/plugins/mcufinder
+2023-01-13 14:35:39,747 [WARN] DbFile:40 - Overriding database path with different value: /Users/vitalii/.stmcufinder/plugins/mcufinder/ => /Users/vitalii/.stmcufinder/plugins/mcufinder
+2023-01-13 14:35:39,747 [INFO] CrossReferenceDbSqlite:201 - Set database path to: /Users/vitalii/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-01-13 14:35:39,764 [INFO] ApplicationProperties:181 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420
+2023-01-13 14:35:39,765 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-01-13 14:35:39,767 [INFO] PluginManage:307 - Check plugin analytics
+2023-01-13 14:35:39,958 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: 
+2023-01-13 14:35:39,960 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-01-13 14:35:39,960 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: 
+2023-01-13 14:35:39,977 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-01-13 14:35:39,980 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-01-13 14:35:39,992 [INFO] CADModel:65 - Init CAD model plugin
+2023-01-13 14:35:39,994 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-01-13 14:35:39,995 [INFO] PluginManage:307 - Check plugin clock
+2023-01-13 14:35:40,006 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-01-13 14:35:40,006 [INFO] PluginManage:307 - Check plugin ddr
+2023-01-13 14:35:40,008 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-01-13 14:35:40,009 [INFO] PluginManage:307 - Check plugin filemanager
+2023-01-13 14:35:40,145 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-01-13 14:35:40,146 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-01-13 14:35:40,153 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-01-13 14:35:40,153 [INFO] PluginManage:307 - Check plugin lpbam
+2023-01-13 14:35:40,161 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-01-13 14:35:40,161 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-01-13 14:35:40,168 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-01-13 14:35:40,168 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-01-13 14:35:40,209 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-01-13 14:35:40,211 [INFO] PluginManage:307 - Check plugin power
+2023-01-13 14:35:40,228 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-01-13 14:35:40,229 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-01-13 14:35:40,250 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-01-13 14:35:40,251 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-01-13 14:35:40,397 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-01-13 14:35:40,401 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-01-13 14:35:40,401 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-01-13 14:35:40,401 [INFO] PluginManage:307 - Check plugin tools
+2023-01-13 14:35:40,404 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-01-13 14:35:40,406 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-01-13 14:35:40,407 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-01-13 14:35:40,755 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-01-13 14:35:40,759 [INFO] PluginManage:307 - Check plugin updater
+2023-01-13 14:35:40,791 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-01-13 14:35:40,792 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-01-13 14:35:41,390 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2023-01-13 14:35:41,478 [INFO] CADModel:98 - CPN selected for project level
+2023-01-13 14:35:41,494 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,495 [INFO] PluginManager:217 - loadIPPluginJar : add mdma
+2023-01-13 14:35:41,501 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,502 [INFO] PluginManager:217 - loadIPPluginJar : add freertos
+2023-01-13 14:35:41,506 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,507 [INFO] PluginManager:217 - loadIPPluginJar : add gic
+2023-01-13 14:35:41,513 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,513 [INFO] PluginManager:217 - loadIPPluginJar : add adc
+2023-01-13 14:35:41,515 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,515 [INFO] PluginManager:217 - loadIPPluginJar : add gtzc
+2023-01-13 14:35:41,516 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,516 [INFO] PluginManager:217 - loadIPPluginJar : add quadspi
+2023-01-13 14:35:41,518 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,519 [INFO] PluginManager:217 - loadIPPluginJar : add aes
+2023-01-13 14:35:41,521 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,521 [INFO] PluginManager:217 - loadIPPluginJar : add pdm2pcm
+2023-01-13 14:35:41,522 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,523 [INFO] PluginManager:217 - loadIPPluginJar : add hash
+2023-01-13 14:35:41,524 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,524 [INFO] PluginManager:217 - loadIPPluginJar : add tim
+2023-01-13 14:35:41,526 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,526 [INFO] PluginManager:217 - loadIPPluginJar : add tsc
+2023-01-13 14:35:41,527 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,527 [INFO] PluginManager:217 - loadIPPluginJar : add ts
+2023-01-13 14:35:41,529 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,529 [INFO] PluginManager:217 - loadIPPluginJar : add can
+2023-01-13 14:35:41,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,531 [INFO] PluginManager:217 - loadIPPluginJar : add dma3
+2023-01-13 14:35:41,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,532 [INFO] PluginManager:217 - loadIPPluginJar : add dfsdm
+2023-01-13 14:35:41,533 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,533 [INFO] PluginManager:217 - loadIPPluginJar : add spi
+2023-01-13 14:35:41,535 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,535 [INFO] PluginManager:217 - loadIPPluginJar : add gfxmmu
+2023-01-13 14:35:41,536 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,536 [INFO] PluginManager:217 - loadIPPluginJar : add genericplugin
+2023-01-13 14:35:41,537 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,537 [INFO] PluginManager:217 - loadIPPluginJar : add cryp
+2023-01-13 14:35:41,540 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,546 [INFO] PluginManager:217 - loadIPPluginJar : add gpio
+2023-01-13 14:35:41,547 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,548 [INFO] PluginManager:217 - loadIPPluginJar : add comp
+2023-01-13 14:35:41,549 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,550 [INFO] PluginManager:217 - loadIPPluginJar : add tracer_emb
+2023-01-13 14:35:41,552 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,552 [INFO] PluginManager:217 - loadIPPluginJar : add openamp
+2023-01-13 14:35:41,555 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,555 [INFO] PluginManager:217 - loadIPPluginJar : add stm32_wpan
+2023-01-13 14:35:41,560 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,563 [INFO] PluginManager:217 - loadIPPluginJar : add plateformsettings
+2023-01-13 14:35:41,565 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,565 [INFO] PluginManager:217 - loadIPPluginJar : add ipddr
+2023-01-13 14:35:41,567 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,567 [INFO] PluginManager:217 - loadIPPluginJar : add usart
+2023-01-13 14:35:41,568 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,569 [INFO] PluginManager:217 - loadIPPluginJar : add ltdc
+2023-01-13 14:35:41,571 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,572 [INFO] PluginManager:217 - loadIPPluginJar : add nvic
+2023-01-13 14:35:41,573 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,573 [INFO] PluginManager:217 - loadIPPluginJar : add fatfs
+2023-01-13 14:35:41,578 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,579 [INFO] PluginManager:217 - loadIPPluginJar : add linkedlist
+2023-01-13 14:35:41,583 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,584 [INFO] PluginManager:217 - loadIPPluginJar : add dma
+2023-01-13 14:35:41,587 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,587 [INFO] PluginManager:217 - loadIPPluginJar : add fmc
+2023-01-13 14:35:41,589 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,590 [INFO] PluginManager:217 - loadIPPluginJar : add i2s
+2023-01-13 14:35:41,591 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,591 [INFO] PluginManager:217 - loadIPPluginJar : add ucpd
+2023-01-13 14:35:41,593 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,593 [INFO] PluginManager:217 - loadIPPluginJar : add lorawan
+2023-01-13 14:35:41,595 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,596 [INFO] PluginManager:217 - loadIPPluginJar : add opamp
+2023-01-13 14:35:41,598 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,600 [INFO] PluginManager:217 - loadIPPluginJar : add touchsensing
+2023-01-13 14:35:41,602 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,603 [INFO] PluginManager:217 - loadIPPluginJar : add i2c
+2023-01-13 14:35:41,605 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,606 [INFO] PluginManager:217 - loadIPPluginJar : add resmgrutility
+2023-01-13 14:35:41,608 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,610 [INFO] PluginManager:217 - loadIPPluginJar : add sai
+2023-01-13 14:35:41,615 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:41,616 [INFO] PluginManager:217 - loadIPPluginJar : add usbx
+2023-01-13 14:35:41,922 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-13 14:35:42,083 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-13 14:35:42,094 [INFO] DbMcusAds:52 - JSON generation date=Thu Sep 30 09:55:09 EEST 2021 (1632984909377)
+2023-01-13 14:35:42,095 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-13 14:35:42,218 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-01-13 14:35:42,320 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-13 14:35:42,322 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-13 14:35:42,322 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-13 14:35:42,323 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-01-13 14:35:42,325 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-13 14:35:42,398 [ERROR] Updater:1105 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-01-13 14:35:42,406 [INFO] Updater:1041 - Updater Version found : 6.6.1
+2023-01-13 14:35:42,422 [INFO] ApplicationProperties:181 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420
+2023-01-13 14:35:43,410 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2023-01-13 14:35:45,888 [INFO] MainUpdater:2768 - connection check result : 10
+2023-01-13 14:35:45,889 [INFO] MainUpdater:3453 - Updater definition file requires update
+2023-01-13 14:35:45,891 [INFO] MainUpdater:280 - Updater Check For Update Now.
+2023-01-13 14:35:45,894 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2023-01-13 14:35:46,027 [INFO] ServerAccessManage:474 - Download File updaters.zip
+2023-01-13 14:35:46,136 [INFO] FileExtend:239 - Unzip File : updaters.zip
+2023-01-13 14:35:46,138 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-01-13 14:35:46,383 [INFO] ServerAccessManage:474 - Download File PacksControlFlags.xml
+2023-01-13 14:35:46,426 [WARN] MainUpdater:1184 - Updater busy. Cannot search thirdparties
+2023-01-13 14:35:46,428 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [1/15]
+2023-01-13 14:35:46,505 [INFO] ServerAccessManage:474 - Download File cubemx.pidx
+2023-01-13 14:35:46,614 [INFO] LoadServerUpdatesThread:367 - End of LoadServerUpdate Thread
+2023-01-13 14:35:46,793 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-01-13 14:35:46,912 [INFO] MainUpdater:2768 - connection check result : 10
+2023-01-13 14:35:46,916 [INFO] MainUpdater:2768 - connection check result : 10
+2023-01-13 14:35:47,726 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-01-13 14:35:47,727 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2023-01-13 14:35:47,729 [WARN] ThirdParty:827 - waiting for thirdparty lock release [close project]
+2023-01-13 14:35:49,595 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-01-13 14:35:49,665 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-01-13 14:35:49,729 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.2.0
+2023-01-13 14:35:49,801 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-01-13 14:35:49,830 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.3
+2023-01-13 14:35:49,849 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-01-13 14:35:49,859 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.5
+2023-01-13 14:35:49,868 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.4
+2023-01-13 14:35:49,883 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.1
+2023-01-13 14:35:49,892 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-01-13 14:35:50,014 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.3.0
+2023-01-13 14:35:50,194 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-01-13 14:35:50,232 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-01-13 14:35:50,243 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-01-13 14:35:50,255 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2023-01-13 14:35:50,274 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2023-01-13 14:35:50,326 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2023-01-13 14:35:50,335 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.0.0
+2023-01-13 14:35:50,341 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-01-13 14:35:50,354 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2023-01-13 14:35:50,384 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.1.0
+2023-01-13 14:35:50,393 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.0
+2023-01-13 14:35:50,454 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.4.0
+2023-01-13 14:35:50,584 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.3.0
+2023-01-13 14:35:50,596 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-01-13 14:35:50,621 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-01-13 14:35:50,650 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-01-13 14:35:50,666 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-01-13 14:35:50,733 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.1
+2023-01-13 14:35:50,759 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2023-01-13 14:35:50,772 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.3.0
+2023-01-13 14:35:50,798 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-01-13 14:35:50,803 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-01-13 14:35:50,826 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-01-13 14:35:50,841 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.2
+2023-01-13 14:35:50,852 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.20.0
+2023-01-13 14:35:50,866 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-01-13 14:35:50,873 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-01-13 14:35:50,880 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-01-13 14:35:50,904 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-01-13 14:35:50,927 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2023-01-13 14:35:50,935 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2023-01-13 14:35:50,937 [INFO] ThirdParty:929 - Integrity check success = true
+2023-01-13 14:35:50,937 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-01-13 14:35:50,938 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-01-13 14:35:50,938 [INFO] ThirdParty:829 - entering critical section [close project]
+2023-01-13 14:35:50,940 [INFO] ThirdParty:839 - exiting critical section [close project]
+2023-01-13 14:35:50,945 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2023-01-13 14:35:50,956 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 286955392 Bytes (601882624)
+2023-01-13 14:35:50,959 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-01-13 14:35:50,960 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2023-01-13 14:35:50,960 [INFO] OpenFileManager:307 - Change cursor
+2023-01-13 14:35:51,026 [INFO] Mcu:1922 - Initializing MCU STM32F411V(C-E)Tx STM32F411VETx STM32F411VET6
+2023-01-13 14:35:52,243 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-01-13 14:35:52,968 [WARN] ApiManager:308 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2023-01-13 14:35:52,969 [WARN] ApiManager:308 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2023-01-13 14:35:52,969 [WARN] ApiManager:308 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2023-01-13 14:35:53,101 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.4.0: no header file found
+2023-01-13 14:35:53,102 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.4.0: no header file found
+2023-01-13 14:35:53,102 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.4.0: no header file found
+2023-01-13 14:35:53,136 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2023-01-13 14:35:53,140 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.4: no header file found
+2023-01-13 14:35:53,147 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-01-13 14:35:53,148 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-01-13 14:35:53,148 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-01-13 14:35:53,148 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-01-13 14:35:53,149 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-01-13 14:35:53,161 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2023-01-13 14:35:53,161 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2023-01-13 14:35:53,161 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2023-01-13 14:35:53,176 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.5: no header file found
+2023-01-13 14:35:53,181 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.4: no header file found
+2023-01-13 14:35:53,182 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,182 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,182 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,183 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,183 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,183 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,183 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,183 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,184 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,184 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,188 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,189 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,189 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,189 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,189 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,190 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,190 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,191 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,191 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,191 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,191 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,191 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,191 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,192 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,192 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,192 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,193 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,193 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,193 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,194 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,194 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,194 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,194 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,194 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,195 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,195 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,195 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,195 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,195 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,196 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,196 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,196 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,196 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-13 14:35:53,200 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2023-01-13 14:35:53,251 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2023-01-13 14:35:53,252 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2023-01-13 14:35:53,252 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2023-01-13 14:35:53,264 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-13 14:35:53,264 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-13 14:35:53,264 [WARN] ApiManager:308 - Cannot register API 'Board Extension:PGEEZ1' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-13 14:35:53,265 [WARN] ApiManager:308 - Cannot register API 'Board Part:M24' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-13 14:35:53,265 [WARN] ApiManager:308 - Cannot register API 'Board Part:M95' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-13 14:35:53,265 [WARN] ApiManager:308 - Cannot register API 'Board Part:M95P32' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-13 14:35:53,265 [WARN] ApiManager:308 - Cannot register API 'PGEEZ1:SPI' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-13 14:35:53,265 [WARN] ApiManager:308 - Cannot register API 'PGEEZ1:QDSPI' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-13 14:35:53,272 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,273 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,273 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,273 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,274 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,274 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,274 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,274 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,274 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,275 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,275 [WARN] ModelIntegratedComponent:183 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,275 [WARN] ModelIntegratedComponent:189 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2023-01-13 14:35:53,275 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2023-01-13 14:35:53,276 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2023-01-13 14:35:53,278 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2023-01-13 14:35:53,278 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2023-01-13 14:35:53,278 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2023-01-13 14:35:53,280 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2023-01-13 14:35:53,304 [INFO] ThirdPartyModel:289 - Start build external matchings
+2023-01-13 14:35:53,576 [INFO] ThirdPartyModel:302 - End build external matchings
+2023-01-13 14:35:53,628 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2023-01-13 14:35:53,910 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 256915056 Bytes (601882624)
+2023-01-13 14:35:54,166 [INFO] ApiDb:576 - Connected to CubeFinder SQLite database (/Users/vitalii/.stmcufinder/plugins/mcufinder/mcu/cube-finder-db.db)
+2023-01-13 14:35:54,215 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2023-01-13 14:35:54,216 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.35
+2023-01-13 14:35:54,217 [INFO] ApiDb:665 - CubeFinder database generation date=2022-11-18 (1668769384)
+2023-01-13 14:35:54,217 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WBA_V0.2.0, STM32Cube_FW_WB_V1.15.0, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.2.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-01-13 14:35:55,360 [INFO] ApiDb:239 - Found 138 in-development CPN: [B-WB1M-WPAN1, NUCLEO-C031C6, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6]
+2023-01-13 14:35:55,366 [INFO] DbMcus:215 - Found 3580 MCUs, 3580 are supported
+2023-01-13 14:35:55,370 [INFO] ApiDb:418 - Load user favorites file /Users/vitalii/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-01-13 14:35:55,370 [INFO] ApiDb:422 - User favorites MCUs=[]
+2023-01-13 14:35:55,371 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2023-01-13 14:35:55,491 [WARN] ThirdParty:789 - waiting for thirdparty lock release [change project]
+2023-01-13 14:35:55,491 [INFO] ThirdParty:791 - entering critical section [change project]
+2023-01-13 14:35:55,492 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-01-13 14:35:55,492 [INFO] ThirdParty:981 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-01-13 14:35:55,492 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-01-13 14:35:55,492 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2023-01-13 14:35:55,493 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-01-13 14:35:55,493 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-01-13 14:35:55,493 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-01-13 14:35:55,493 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-01-13 14:35:55,493 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-01-13 14:35:55,494 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2023-01-13 14:35:55,494 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-01-13 14:35:55,494 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-01-13 14:35:55,494 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-01-13 14:35:55,494 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-01-13 14:35:55,495 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2023-01-13 14:35:55,495 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-01-13 14:35:55,495 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-01-13 14:35:55,495 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-01-13 14:35:55,495 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-01-13 14:35:55,495 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-01-13 14:35:55,496 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-01-13 14:35:55,496 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-01-13 14:35:55,496 [INFO] ThirdParty:981 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.1
+2023-01-13 14:35:55,496 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-01-13 14:35:55,496 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-01-13 14:35:55,497 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2023-01-13 14:35:55,497 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-01-13 14:35:55,497 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-01-13 14:35:55,497 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-01-13 14:35:55,497 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-01-13 14:35:55,498 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-01-13 14:35:55,498 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-01-13 14:35:55,498 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-01-13 14:35:55,498 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-01-13 14:35:55,498 [INFO] ThirdParty:981 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.1
+2023-01-13 14:35:55,499 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-01-13 14:35:55,499 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-01-13 14:35:55,499 [INFO] ThirdParty:981 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2023-01-13 14:35:55,500 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2023-01-13 14:35:55,501 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-01-13 14:35:55,502 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-01-13 14:35:55,502 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-01-13 14:35:55,502 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2023-01-13 14:35:55,503 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-01-13 14:35:55,503 [INFO] ThirdParty:981 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-01-13 14:35:55,503 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-01-13 14:35:55,503 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-01-13 14:35:55,503 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-01-13 14:35:55,504 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2023-01-13 14:35:55,504 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-01-13 14:35:55,504 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2023-01-13 14:35:55,504 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-01-13 14:35:55,504 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-01-13 14:35:55,505 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-01-13 14:35:55,505 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-01-13 14:35:55,505 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-01-13 14:35:55,506 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-01-13 14:35:55,506 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-01-13 14:35:55,506 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-01-13 14:35:55,506 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2023-01-13 14:35:55,506 [INFO] ThirdParty:797 - exiting critical section [change project]
+2023-01-13 14:35:56,359 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2023-01-13 14:35:56,367 [INFO] PinOutPanel:1468 - setPackage(STM32F411VETx,LQFP100)
+2023-01-13 14:35:57,191 [INFO] UtilMem:74 - Before build in PCC Used Memory: 252037440 Bytes (601882624)
+2023-01-13 14:35:58,325 [INFO] UtilMem:74 - After build in PCC Used Memory: 216015360 Bytes (601882624)
+2023-01-13 14:35:58,397 [INFO] ApiDbMcu:505 - Load IP Config File for USB_HOST
+2023-01-13 14:35:58,400 [WARN] BspModel:442 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2023-01-13 14:35:58,514 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,514 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,516 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,516 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,518 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,519 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,519 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,520 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,521 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,521 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,521 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,522 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,522 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,525 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,525 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,525 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,526 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,526 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,526 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,526 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,527 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,527 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,527 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,528 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,528 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,528 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,528 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,528 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,529 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,529 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,529 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,529 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,530 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,530 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,530 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,530 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,531 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,532 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-13 14:35:58,549 [INFO] ApiDbMcu:505 - Load IP Config File for PDM2PCM
+2023-01-13 14:35:58,567 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 14:35:58,568 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 14:35:58,592 [INFO] I2sManager:630 - 1.6E8
+2023-01-13 14:35:58,594 [INFO] I2sManager:183 - I2S Clock Value : 1.6E8
+2023-01-13 14:35:58,598 [INFO] I2sManager:524 - AudioClock : 96153Divider : 26Odd : 0
+2023-01-13 14:35:58,601 [INFO] I2sManager:630 - 1.6E8
+2023-01-13 14:35:58,601 [INFO] I2sManager:183 - I2S Clock Value : 1.6E8
+2023-01-13 14:35:58,602 [INFO] I2sManager:524 - AudioClock : 89285Divider : 3Odd : 1
+2023-01-13 14:35:58,888 [INFO] OpenFileManager:327 - Restore cursor
+2023-01-13 14:35:59,176 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 14:35:59,177 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 14:35:59,179 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 14:35:59,179 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:24,289 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:24,292 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:24,302 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:24,302 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,873 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,874 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,874 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,875 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,886 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,887 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,896 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,897 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,943 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,943 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,952 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:21:55,953 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:22:20,497 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:22:20,500 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:22:20,509 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:22:20,510 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,220 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,222 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,291 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,291 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,293 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,293 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,354 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,355 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,361 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,361 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,417 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,418 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,419 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,419 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,430 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,431 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,446 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,446 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,501 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,502 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,505 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,506 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,514 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:40,515 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,676 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,677 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,727 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,727 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,728 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,729 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,782 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,782 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,785 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,786 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,831 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,831 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,832 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,832 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,849 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,850 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,861 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,862 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,902 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,903 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,907 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,907 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,918 [WARN] IP:2111 - SMBusAnalogFilter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:42,918 [WARN] IP:2111 - SMBusOwnAddress not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,166 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,166 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,201 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,201 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,201 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,202 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,272 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,273 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,275 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,276 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,350 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,351 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,351 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,352 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,362 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,364 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,381 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,382 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,425 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,426 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,430 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,431 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,440 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:45,440 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,182 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,182 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,196 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,197 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,197 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,197 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,208 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,209 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,209 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,210 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,222 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,225 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,225 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,225 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,282 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,285 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,288 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,288 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,294 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:49,294 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,784 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,784 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,796 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,796 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,797 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,797 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,810 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,810 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,811 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,811 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,822 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,823 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,824 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,824 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,891 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,891 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,896 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,896 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,900 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:53,901 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:57,526 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:57,527 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:57,540 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:23:57,540 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:02,640 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:02,640 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:02,645 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:02,646 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,829 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,830 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,831 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,831 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,842 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,842 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,853 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,854 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,903 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,904 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,912 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:24:26,912 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,564 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,564 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,608 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,609 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,609 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,610 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,649 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,650 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,653 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,654 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,706 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,707 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,707 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,707 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,726 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,726 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,739 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,739 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,774 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,774 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,777 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:25:26,778 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:26:05,877 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-13 15:26:05,921 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-13 15:26:05,947 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:05,999 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:05,999 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,000 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,000 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,001 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,001 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,001 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,002 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,002 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,004 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,014 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,121 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:26:06,196 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:26:06,360 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,361 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,361 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,362 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,362 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,363 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,363 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,363 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,364 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,364 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,364 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,367 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,368 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,368 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,390 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,418 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,418 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,419 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,419 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,420 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,420 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,420 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,421 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,421 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,422 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,423 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,423 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,423 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,424 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:06,454 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,377 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-13 15:26:12,384 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,385 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,386 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,386 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,387 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,387 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,388 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,388 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,389 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,389 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,390 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,390 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,390 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,391 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,397 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-13 15:26:12,407 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,436 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,438 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,439 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,439 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,440 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,440 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,440 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,441 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,441 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,441 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,442 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,442 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,442 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,443 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,451 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,531 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:26:12,624 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:26:12,718 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,719 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,719 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,719 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,720 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,720 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,721 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,721 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,721 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,722 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,722 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,722 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,722 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,723 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,750 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,787 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,787 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,788 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,788 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,788 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,789 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,789 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,789 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,790 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,790 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,790 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,791 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,791 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,791 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:12,815 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,255 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-13 15:26:18,266 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,267 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,267 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,268 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,268 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,269 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,269 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,269 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,270 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,271 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,271 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,271 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,276 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-13 15:26:18,289 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,310 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,311 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,311 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,311 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,312 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,312 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,313 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,313 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,313 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,314 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,314 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,314 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,315 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,315 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,323 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,415 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:26:18,486 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:26:18,599 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,600 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,601 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,601 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,601 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,602 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,602 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,602 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,603 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,603 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,603 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,604 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,604 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,604 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,637 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,667 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,667 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,668 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,668 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,668 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,669 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,669 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,670 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,670 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,670 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,671 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,671 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,671 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,671 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:18,694 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,587 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,592 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,593 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,593 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,594 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,594 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,595 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,595 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,596 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,596 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,596 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,597 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,597 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,597 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,623 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,641 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,643 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,643 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,644 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,644 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,644 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,645 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,645 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,646 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,646 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,646 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,647 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,647 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,647 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,663 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,705 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,707 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,707 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,708 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,708 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,708 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,709 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,709 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,710 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,710 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,710 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,710 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,711 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,711 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:27,732 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,482 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:26:34,525 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,527 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,528 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,528 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,528 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,529 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,529 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,529 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,529 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,529 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,529 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,529 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,530 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,530 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:34,550 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,518 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:26:44,560 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,584 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,585 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,585 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,585 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,585 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,586 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,586 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,586 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,586 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,586 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,586 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,587 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,587 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:26:44,607 [INFO] ADCParametersView:113 -                Rank 1 : false
+2023-01-13 15:27:13,775 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:27:13,775 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:27:13,776 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:27:13,776 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:22,288 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:30:22,385 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:30:48,558 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:48,559 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:48,559 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:48,559 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:48,599 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:48,599 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:48,632 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:48,632 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:57,544 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:57,544 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:57,544 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:57,544 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:57,582 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:57,582 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:57,618 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:30:57,618 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:04,733 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:04,733 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:04,733 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:04,733 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:04,769 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:04,769 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:04,813 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:04,813 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:31:16,894 [INFO] Gpio:272 - dependency for GPIO [ADC1, I2C1, RCC, SPI1, SYS, USART2]
+2023-01-13 15:31:34,566 [INFO] Pin:2096 - value.trim() Т
+2023-01-13 15:31:34,568 [INFO] Pin:2097 - Pin value PB0
+2023-01-13 15:32:32,660 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 463601192 Bytes (601882624)
+2023-01-13 15:32:34,409 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 516080976 Bytes (601882624)
+2023-01-13 15:32:37,102 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 389216752 Bytes (601882624)
+2023-01-13 15:32:37,541 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SPI
+2023-01-13 15:32:37,541 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2023-01-13 15:32:37,541 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2023-01-13 15:32:37,541 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2023-01-13 15:32:37,542 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2023-01-13 15:32:37,542 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: ADC
+2023-01-13 15:32:37,542 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2023-01-13 15:32:37,542 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: I2C
+2023-01-13 15:32:37,543 [INFO] CodeGenerator:690 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2023-01-13 15:32:37,553 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:32:37,553 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:32:37,841 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/MXTmpFiles/license.tmp_save
+2023-01-13 15:32:38,415 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/MXTmpFiles/license.tmp
+2023-01-13 15:32:38,533 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/gpio.c_save
+2023-01-13 15:32:38,708 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/gpio.c
+2023-01-13 15:32:38,711 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/gpio.h_save
+2023-01-13 15:32:38,794 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/gpio.h
+2023-01-13 15:32:39,159 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/adc.c_save
+2023-01-13 15:32:39,368 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/adc.c
+2023-01-13 15:32:39,370 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/adc.h_save
+2023-01-13 15:32:39,461 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/adc.h
+2023-01-13 15:32:39,466 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/i2c.c_save
+2023-01-13 15:32:39,575 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/i2c.c
+2023-01-13 15:32:39,577 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/i2c.h_save
+2023-01-13 15:32:39,710 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/i2c.h
+2023-01-13 15:32:39,723 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/spi.c_save
+2023-01-13 15:32:40,050 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/spi.c
+2023-01-13 15:32:40,053 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/spi.h_save
+2023-01-13 15:32:40,156 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/spi.h
+2023-01-13 15:32:40,161 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/usart.c_save
+2023-01-13 15:32:40,286 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/usart.c
+2023-01-13 15:32:40,288 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/usart.h_save
+2023-01-13 15:32:40,351 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/usart.h
+2023-01-13 15:32:40,356 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/stm32f4xx_it.c_save
+2023-01-13 15:32:40,510 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/stm32f4xx_it.c
+2023-01-13 15:32:40,512 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/stm32f4xx_it.h_save
+2023-01-13 15:32:40,578 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/stm32f4xx_it.h
+2023-01-13 15:32:40,588 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/stm32f4xx_hal_msp.c_save
+2023-01-13 15:32:40,693 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/stm32f4xx_hal_msp.c
+2023-01-13 15:32:40,694 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/MXTmpFiles/system.tmp_save
+2023-01-13 15:32:40,754 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/MXTmpFiles/system.tmp
+2023-01-13 15:32:40,758 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/stm32f4xx_hal_conf.h_save
+2023-01-13 15:32:40,833 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/stm32f4xx_hal_conf.h
+2023-01-13 15:32:40,956 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/main.h_save
+2023-01-13 15:32:41,047 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/main.h
+2023-01-13 15:32:41,049 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/main.c_save
+2023-01-13 15:32:41,312 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/main.c
+2023-01-13 15:32:41,943 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 80mS.
+2023-01-13 15:32:41,969 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2023-01-13 15:32:42,420 [INFO] ConfigFileManager:1394 - The Die is : DIE431
+2023-01-13 15:32:42,636 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-01-13 15:32:42,783 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-01-13 15:32:42,808 [INFO] ApiDbMcu:505 - Load IP Config File for LIBJPEG
+2023-01-13 15:32:42,928 [INFO] ApiDbMcu:505 - Load IP Config File for MBEDTLS
+2023-01-13 15:32:43,023 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2023-01-13 15:32:46,080 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 4055mS.
+2023-01-13 15:32:46,088 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 2mS.
+2023-01-13 15:32:46,091 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-13 15:33:23,132 [INFO] Gpio:272 - dependency for GPIO [ADC1, I2C1, RCC, SPI1, SYS, USART2]
+2023-01-13 15:33:23,291 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:33:23,495 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:23,495 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:23,496 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:23,496 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:23,530 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:23,530 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:23,563 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:23,564 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:23,591 [INFO] Gpio:272 - dependency for GPIO [ADC1, I2C1, RCC, SPI1, SYS, USART2]
+2023-01-13 15:33:23,642 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:33:41,353 [INFO] Gpio:272 - dependency for GPIO [ADC1, I2C1, RCC, SPI1, SYS, USART2]
+2023-01-13 15:33:41,471 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:33:41,598 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:41,599 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:41,599 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:41,599 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:41,644 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:41,644 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:41,675 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:41,675 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:41,687 [INFO] Gpio:272 - dependency for GPIO [ADC1, I2C1, RCC, SPI1, SYS, USART2]
+2023-01-13 15:33:41,730 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-13 15:33:44,673 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 298497000 Bytes (607125504)
+2023-01-13 15:33:46,416 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 318137416 Bytes (607125504)
+2023-01-13 15:33:49,263 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 389955840 Bytes (607125504)
+2023-01-13 15:33:49,508 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SPI
+2023-01-13 15:33:49,508 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2023-01-13 15:33:49,508 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2023-01-13 15:33:49,508 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2023-01-13 15:33:49,508 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2023-01-13 15:33:49,508 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: ADC
+2023-01-13 15:33:49,508 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2023-01-13 15:33:49,508 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: I2C
+2023-01-13 15:33:49,509 [INFO] CodeGenerator:690 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.6.1.202207061420//db/
+2023-01-13 15:33:49,644 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:49,650 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-13 15:33:49,866 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/MXTmpFiles/license.tmp_save
+2023-01-13 15:33:49,995 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/MXTmpFiles/license.tmp
+2023-01-13 15:33:50,034 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/gpio.c_save
+2023-01-13 15:33:50,118 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/gpio.c
+2023-01-13 15:33:50,120 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/gpio.h_save
+2023-01-13 15:33:50,182 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/gpio.h
+2023-01-13 15:33:50,421 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/adc.c_save
+2023-01-13 15:33:50,611 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/adc.c
+2023-01-13 15:33:50,628 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/adc.h_save
+2023-01-13 15:33:50,706 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/adc.h
+2023-01-13 15:33:50,714 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/i2c.c_save
+2023-01-13 15:33:50,801 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/i2c.c
+2023-01-13 15:33:50,803 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/i2c.h_save
+2023-01-13 15:33:50,864 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/i2c.h
+2023-01-13 15:33:50,867 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/spi.c_save
+2023-01-13 15:33:51,034 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/spi.c
+2023-01-13 15:33:51,036 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/spi.h_save
+2023-01-13 15:33:51,096 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/spi.h
+2023-01-13 15:33:51,101 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/usart.c_save
+2023-01-13 15:33:51,176 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/usart.c
+2023-01-13 15:33:51,178 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/usart.h_save
+2023-01-13 15:33:51,248 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/usart.h
+2023-01-13 15:33:51,252 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/stm32f4xx_it.c_save
+2023-01-13 15:33:51,329 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/stm32f4xx_it.c
+2023-01-13 15:33:51,332 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/stm32f4xx_it.h_save
+2023-01-13 15:33:51,385 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/stm32f4xx_it.h
+2023-01-13 15:33:51,392 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/stm32f4xx_hal_msp.c_save
+2023-01-13 15:33:51,468 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/stm32f4xx_hal_msp.c
+2023-01-13 15:33:51,470 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/MXTmpFiles/system.tmp_save
+2023-01-13 15:33:51,520 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/MXTmpFiles/system.tmp
+2023-01-13 15:33:51,524 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/stm32f4xx_hal_conf.h_save
+2023-01-13 15:33:51,592 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/stm32f4xx_hal_conf.h
+2023-01-13 15:33:51,684 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/main.h_save
+2023-01-13 15:33:51,743 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Inc/main.h
+2023-01-13 15:33:51,745 [INFO] CodeEngine:245 - oldGeneratedFile, /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/main.c_save
+2023-01-13 15:33:51,843 [INFO] CodeEngine:269 - Generated code: /Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/Core/Src/main.c
+2023-01-13 15:33:52,486 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 69mS.
+2023-01-13 15:33:52,496 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2023-01-13 15:33:52,849 [INFO] ConfigFileManager:1394 - The Die is : DIE431
+2023-01-13 15:33:55,110 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 2614mS.
+2023-01-13 15:33:55,116 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2023-01-13 15:33:55,119 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.

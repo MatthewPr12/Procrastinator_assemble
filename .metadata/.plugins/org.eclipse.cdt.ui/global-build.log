@@ -1,0 +1,253 @@
+15:47:28 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:153:90: warning: format '%f' expects argument of type 'double', but argument 6 has type 'int' [-Wformat=]
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %f\n\r", Temperature, Pressure, Humidity, readvalue);
+      |                                                                                         ~^                                        ~~~~~~~~~
+      |                                                                                          |                                        |
+      |                                                                                          double                                   int
+      |                                                                                         %d
+../Core/Src/main.c:135:11: warning: unused variable 'stat' [-Wunused-variable]
+  135 |       int stat= 0;
+      |           ^~~~
+../Core/Src/main.c:153:89: warning: '%f' directive writing between 3 and 317 bytes into a region of size between 0 and 4 [-Wformat-overflow=]
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %f\n\r", Temperature, Pressure, Humidity, readvalue);
+      |                                                                                         ^~
+../Core/Src/main.c:153:21: note: assuming directive output of 8 bytes
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %f\n\r", Temperature, Pressure, Humidity, readvalue);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:153:5: note: 'sprintf' output between 66 and 1310 bytes into a destination of size 64
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %f\n\r", Temperature, Pressure, Humidity, readvalue);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Procrastinator.elf
+ 
+arm-none-eabi-size   Procrastinator.elf 
+arm-none-eabi-objdump -h -S  Procrastinator.elf  > "Procrastinator.list"
+   text	   data	    bss	    dec	    hex	filename
+  39836	    484	   2084	  42404	   a5a4	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Procrastinator.list
+ 
+15:47:37 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-size   Procrastinator.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39836	    484	   2084	  42404	   a5a4	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+15:48:30 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:153:91: warning: format '%f' expects argument of type 'double', but argument 6 has type 'int' [-Wformat=]
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %.f\n\r", Temperature, Pressure, Humidity, readvalue);
+      |                                                                                         ~~^                                        ~~~~~~~~~
+      |                                                                                           |                                        |
+      |                                                                                           double                                   int
+      |                                                                                         %.d
+../Core/Src/main.c:135:11: warning: unused variable 'stat' [-Wunused-variable]
+  135 |       int stat= 0;
+      |           ^~~~
+../Core/Src/main.c:153:92: warning: '
+
+' directive writing 2 bytes into a region of size between 0 and 3 [-Wformat-overflow=]
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %.f\n\r", Temperature, Pressure, Humidity, readvalue);
+      |                                                                                            ^~~~
+../Core/Src/main.c:153:5: note: 'sprintf' output between 64 and 1303 bytes into a destination of size 64
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %.f\n\r", Temperature, Pressure, Humidity, readvalue);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Procrastinator.elf
+ 
+arm-none-eabi-size   Procrastinator.elf 
+arm-none-eabi-objdump -h -S  Procrastinator.elf  > "Procrastinator.list"
+   text	   data	    bss	    dec	    hex	filename
+  39844	    484	   2084	  42412	   a5ac	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Procrastinator.list
+ 
+15:49:08 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:135:11: warning: unused variable 'stat' [-Wunused-variable]
+  135 |       int stat= 0;
+      |           ^~~~
+../Core/Src/main.c:153:91: warning: '
+
+' directive writing 2 bytes into a region of size between 0 and 3 [-Wformat-overflow=]
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %d\n\r", Temperature, Pressure, Humidity, readvalue);
+      |                                                                                           ^~~~
+../Core/Src/main.c:153:5: note: 'sprintf' output between 64 and 998 bytes into a destination of size 64
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %d\n\r", Temperature, Pressure, Humidity, readvalue);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Procrastinator.elf
+ 
+arm-none-eabi-size   Procrastinator.elf 
+arm-none-eabi-objdump -h -S  Procrastinator.elf  > "Procrastinator.list"
+   text	   data	    bss	    dec	    hex	filename
+  39836	    484	   2084	  42404	   a5a4	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Procrastinator.list
+ 
+15:49:51 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-size   Procrastinator.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39836	    484	   2084	  42404	   a5a4	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+15:50:46 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:135:11: warning: unused variable 'stat' [-Wunused-variable]
+  135 |       int stat= 0;
+      |           ^~~~
+../Core/Src/main.c:110:12: warning: variable 'readvalue' set but not used [-Wunused-but-set-variable]
+  110 |   uint16_t readvalue;
+      |            ^~~~~~~~~
+arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Procrastinator.elf
+ 
+arm-none-eabi-size   Procrastinator.elf 
+arm-none-eabi-objdump -h -S  Procrastinator.elf  > "Procrastinator.list"
+   text	   data	    bss	    dec	    hex	filename
+  39812	    484	   2084	  42380	   a58c	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Procrastinator.list
+ 
+15:52:35 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:135:11: warning: unused variable 'stat' [-Wunused-variable]
+  135 |       int stat= 0;
+      |           ^~~~
+../Core/Src/main.c:110:12: warning: variable 'readvalue' set but not used [-Wunused-but-set-variable]
+  110 |   uint16_t readvalue;
+      |            ^~~~~~~~~
+../Core/Src/main.c:153:74: warning: ' 	Brightness: 
+
+' directive writing 16 bytes into a region of size between 0 and 18 [-Wformat-overflow=]
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: \n\r", Temperature, Pressure, Humidity);
+      |                                                                          ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:153:5: note: 'sprintf' output between 63 and 993 bytes into a destination of size 64
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: \n\r", Temperature, Pressure, Humidity);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Procrastinator.elf
+ 
+arm-none-eabi-size   Procrastinator.elf 
+arm-none-eabi-objdump -h -S  Procrastinator.elf  > "Procrastinator.list"
+   text	   data	    bss	    dec	    hex	filename
+  39828	    484	   2084	  42396	   a59c	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Procrastinator.list
+ 
+15:53:07 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:135:11: warning: unused variable 'stat' [-Wunused-variable]
+  135 |       int stat= 0;
+      |           ^~~~
+../Core/Src/main.c:110:12: warning: variable 'readvalue' set but not used [-Wunused-but-set-variable]
+  110 |   uint16_t readvalue;
+      |            ^~~~~~~~~
+arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Procrastinator.elf
+ 
+arm-none-eabi-size   Procrastinator.elf 
+arm-none-eabi-objdump -h -S  Procrastinator.elf  > "Procrastinator.list"
+   text	   data	    bss	    dec	    hex	filename
+  39828	    484	   2148	  42460	   a5dc	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Procrastinator.list
+ 
+15:53:51 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:153:92: warning: format '%f' expects argument of type 'double', but argument 6 has type 'int' [-Wformat=]
+  153 |     sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f \tBrightness: %.2f\n\r", Temperature, Pressure, Humidity, readvalue);
+      |                                                                                         ~~~^                                        ~~~~~~~~~
+      |                                                                                            |                                        |
+      |                                                                                            double                                   int
+      |                                                                                         %.2d
+../Core/Src/main.c:135:11: warning: unused variable 'stat' [-Wunused-variable]
+  135 |       int stat= 0;
+      |           ^~~~
+arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Procrastinator.elf
+ 
+arm-none-eabi-size   Procrastinator.elf 
+arm-none-eabi-objdump -h -S  Procrastinator.elf  > "Procrastinator.list"
+   text	   data	    bss	    dec	    hex	filename
+  39844	    484	   2148	  42476	   a5ec	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Procrastinator.list
+ 
+15:55:28 **** Incremental Build of configuration Debug for project Procrastinator ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:30:
+../Core/Inc/LoRa.h:1:1: warning: multi-line comment [-Wcomment]
+    1 | // -------------------------------------------------- \\
+      | ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:135:11: warning: unused variable 'stat' [-Wunused-variable]
+  135 |       int stat= 0;
+      |           ^~~~
+../Core/Src/main.c:110:12: warning: variable 'readvalue' set but not used [-Wunused-but-set-variable]
+  110 |   uint16_t readvalue;
+      |            ^~~~~~~~~
+arm-none-eabi-gcc -u_printf_float -o "Procrastinator.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/vitalii/Desktop/UCU/POK/Procrastinator_assemble/Procrastinator/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Procrastinator.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Procrastinator.elf
+ 
+arm-none-eabi-size   Procrastinator.elf 
+arm-none-eabi-objdump -h -S  Procrastinator.elf  > "Procrastinator.list"
+   text	   data	    bss	    dec	    hex	filename
+  39812	    484	   2148	  42444	   a5cc	Procrastinator.elf
+Finished building: default.size.stdout
+ 
+Finished building: Procrastinator.list
+ 
