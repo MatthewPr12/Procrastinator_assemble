@@ -4,10 +4,10 @@
 ### Team:
 
 - Students: 
-  - Nazar Demchuk
-  - Vitalii Petrychko
-  - Anastasiia Senyk 
-  - Matthew Prytula
+  - [Nazar Demchuk](https://github.com/frezario)
+  - [Vitalii Petrychko](https://github.com/Vitalik001)
+  - [Anastasiia Senyk](https://github.com/anastasiasenyk)
+  - [Matthew Prytula](https://github.com/MatthewPr12)
 
 - Mentors: 
   - Denys Levchunets
