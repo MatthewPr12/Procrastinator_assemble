@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "adc.h"
+//#include "adc.h"
 #include "i2c.h"
 #include "spi.h"
 #include "usart.h"
@@ -30,7 +30,7 @@
 #include "LoRa.h"
 #include "stdio.h"
 #include "string.h"
-char buffer[64] = {0};
+char buffer[32] = {0};
 uint8_t count=0;
 /* USER CODE END Includes */
 
@@ -100,15 +100,15 @@ int main(void)
   MX_I2C1_Init();
   MX_SPI1_Init();
   MX_USART2_UART_Init();
-  MX_ADC1_Init();
+//  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
   BME280_Config(OSRS_2, OSRS_16, OSRS_1, MODE_NORMAL, T_SB_0p5, IIR_16);
   if(HAL_I2C_IsDeviceReady(&hi2c1, 0xEC, 2, 10)==HAL_OK){
  	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
    }
 
-  uint16_t readvalue;
-    HAL_ADC_Start(&hadc1);
+//  uint16_t readvalue;
+//    HAL_ADC_Start(&hadc1);
     myLoRa = newLoRa();
     LoRa_reset(&myLoRa);
     myLoRa.CS_port         = NSS_GPIO_Port;
@@ -131,13 +131,6 @@ int main(void)
   	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_SET);
     }
 
-    //transmitter
-      int stat= 0;
-      char*  send_data;
-      send_data = "Hello world!";
-      if(LoRa_transmit(&myLoRa, (uint8_t*)send_data, 12, 100) == 1){
-    	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
-      }
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -147,26 +140,22 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
+	  if (LoRa_init(&myLoRa) == LORA_OK){
+	    	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_SET);
+	      }
+	  else{
+		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_RESET);
+	  }
     BME280_Measure();
-    count++;
-    sprintf(buffer, "\tTemperature: %.2f \tPressure: %.2f\tHumidity: %.2f\n\r", Temperature, Pressure, Humidity);
+    sprintf(buffer, "T: %.2f P: %.2f H: %.2f\n\r", Temperature, Pressure, Humidity);
     uprintf(buffer);
-    //	  Transmitter
-    //	   Reading from photoresistor
-  HAL_ADC_PollForConversion(&hadc1, 1000);
-  readvalue = HAL_ADC_GetValue(&hadc1);
-//	  stat = LoRa_init(&myLoRa);
-//	  send_data = "Hello world!";
-//	  sprintf(send_data, "%d", readvalue);
-//
 	if(LoRa_transmit(&myLoRa, (uint8_t*)buffer, strlen(buffer), 100) == 1){
 	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
 	}
 	else {
 		 HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
 	}
-	HAL_Delay(500);
+	HAL_Delay(200);
   }
   /* USER CODE END 3 */
 }

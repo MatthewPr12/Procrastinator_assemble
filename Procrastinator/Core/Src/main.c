@@ -18,10 +18,11 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "adc.h"
 #include "i2c.h"
+#include "i2s.h"
 #include "spi.h"
 #include "usart.h"
+#include "usb_host.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -61,6 +62,9 @@ LoRa myLoRa;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+void PeriphCommonClock_Config(void);
+void MX_USB_HOST_Process(void);
+
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -91,6 +95,9 @@ int main(void)
   /* Configure the system clock */
   SystemClock_Config();
 
+/* Configure the peripherals common clocks */
+  PeriphCommonClock_Config();
+
   /* USER CODE BEGIN SysInit */
 
   /* USER CODE END SysInit */
@@ -98,17 +105,19 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_I2C1_Init();
+  MX_I2S2_Init();
+  MX_I2S3_Init();
   MX_SPI1_Init();
+  MX_USB_HOST_Init();
   MX_USART2_UART_Init();
-  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
   BME280_Config(OSRS_2, OSRS_16, OSRS_1, MODE_NORMAL, T_SB_0p5, IIR_16);
   if(HAL_I2C_IsDeviceReady(&hi2c1, 0xEC, 2, 10)==HAL_OK){
  	  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
    }
 
-  uint16_t readvalue;
-    HAL_ADC_Start(&hadc1);
+//  uint16_t readvalue;
+//    HAL_ADC_Start(&hadc1);
     myLoRa = newLoRa();
     LoRa_reset(&myLoRa);
     myLoRa.CS_port         = NSS_GPIO_Port;
@@ -128,16 +137,9 @@ int main(void)
     myLoRa.preamble              = 9;              // default = 8;
 
     if (LoRa_init(&myLoRa) == LORA_OK){
-  	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_SET);
+  	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_SET);
     }
 
-    //transmitter
-//      int stat= 0;
-//      char*  send_data;
-//      send_data = "Hello world!";
-//      if(LoRa_transmit(&myLoRa, (uint8_t*)send_data, 12, 100) == 1){
-//    	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
-//      }
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -145,31 +147,25 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+    MX_USB_HOST_Process();
 
     /* USER CODE BEGIN 3 */
 	  if (LoRa_init(&myLoRa) == LORA_OK){
-	    	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_SET);
+	    	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_SET);
 	      }
 	  else{
-		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_RESET);
+		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13, GPIO_PIN_RESET);
 	  }
     BME280_Measure();
     sprintf(buffer, "T: %.2f P: %.2f H: %.2f\n\r", Temperature, Pressure, Humidity);
 //    uprintf(buffer);
-    //	  Transmitter
-    //	   Reading from photoresistor
-//  HAL_ADC_PollForConversion(&hadc1, 1000);
-//  readvalue = HAL_ADC_GetValue(&hadc1);
-//	  stat = LoRa_init(&myLoRa);
-//	  send_data = "Hello world!";
-//	  sprintf(send_data, "%d", readvalue);
-//
 	if(LoRa_transmit(&myLoRa, (uint8_t*)buffer, strlen(buffer), 100) == 1){
 	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_SET);
 	}
 	else {
 		 HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
 	}
+	LoRa_transmit(&myLoRa, (uint8_t*)buffer, strlen(buffer), 100);
 	HAL_Delay(200);
   }
   /* USER CODE END 3 */
@@ -215,6 +211,26 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/**
+  * @brief Peripherals Common Clock Configuration
+  * @retval None
+  */
+void PeriphCommonClock_Config(void)
+{
+  RCC_PeriphCLKInitTypeDef PeriphClkInitStruct = {0};
+
+  /** Initializes the peripherals clock
+  */
+  PeriphClkInitStruct.PeriphClockSelection = RCC_PERIPHCLK_I2S;
+  PeriphClkInitStruct.PLLI2S.PLLI2SN = 200;
+  PeriphClkInitStruct.PLLI2S.PLLI2SM = 5;
+  PeriphClkInitStruct.PLLI2S.PLLI2SR = 2;
+  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInitStruct) != HAL_OK)
   {
     Error_Handler();
   }
